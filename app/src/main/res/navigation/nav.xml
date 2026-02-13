@@ -38,10 +38,21 @@
             app:destination="@id/m1_23961" />
         <action
             android:id="@+id/action_m1_76542_to_m1_39462"
-            app:destination="@id/m1_39462" />
+            app:destination="@id/m1_55000" />
         <action
             android:id="@+id/action_m1_76542_to_m1_97109"
             app:destination="@id/m1_97109" />
+    </fragment>
+
+    <!-- Helicopter Withdraws (between Approve Helicopter and Tension Reduced) -->
+    <fragment
+        android:id="@+id/m1_55000"
+        android:name="com.kancharla.abhilash.fc_003.m1_55000"
+        android:label="Helicopter Withdraws"
+        tools:layout="@layout/fragment_m1_55000">
+        <action
+            android:id="@+id/action_m1_55000_to_m1_39462"
+            app:destination="@id/m1_39462" />
     </fragment>
 
     <!-- Opening Dialogue -->
